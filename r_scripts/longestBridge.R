@@ -29,7 +29,7 @@ data2020 <- data2020 %>%
     variable == "P1_004N" ~ "Black",
   )) %>%
   group_by(GEOID, race) %>%         # group data to work with summarize()
-   summarize(value = value) #%>%   
+   summarize(value = value) %>%   
    filter(value > 50) %>%            # filter to census tracts with > 50 people
    split(.$race)       # converts dataframe into a list of dataframes, 1 for each race
 
