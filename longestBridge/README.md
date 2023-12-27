@@ -1,4 +1,4 @@
-INFO:
+Some points/info from my presentation of this for a religion class:
 
 1960 figures
     Black: 62,071
